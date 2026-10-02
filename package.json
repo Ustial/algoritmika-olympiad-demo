@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test model.test.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "typescript": "^5.9.3"
+  },
+  "type": "module"
+}
